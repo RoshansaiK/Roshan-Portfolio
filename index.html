@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-REPLACE_WITH_HASH" crossorigin="anonymous" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+      <path d="M10.804 8 5 4.633v6.734zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696z"/>
+    </svg>
+    <link rel="stylesheet" href="cb.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+    <script src="cb.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Roshansaiketam</title>
+    <style>
+        .skills-list {
+            display: flex;
+            gap: 10px;
+        }
+
+        .skills-list span {
+            display: inline-flex;
+            align-items: center;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <style>
+  .skills-box {
+    margin: 20px;
+  }
+
+  .skills-header h3 {
+    text-align: center;
+  }
+
+  .skills-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .skills-list span {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px); /* Add this line for the blur effect */
+  }
+
+  .skills-list span i {
+    margin-right: 5px;
+  }
+</style>
+<style>
+    .project-box1 {
+        position: relative;
+        text-align: center;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+      }
+      .project-box i {
+        font-size: 48px;
+        color: #3498db;
+      }
+      .project-box1 i {
+        font-size: 48px;
+        color: #3498db;
+      }
+      h3 {
+        margin-top: 10px;
+        color: #333;
+      }
+      
+      label {
+        display: block;
+        margin-top: 10px;
+        color: #777;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      
+      p2 {
+        margin: 0 auto; /* Center the paragraph */
+        max-width: 600px; /* Adjust the maximum width as needed */
+        line-height: 1.6;
+        /* Adjust line height as needed */
+      }
+      .buttons-container1 {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      
+      
+      .button-secondary {
+        background-color: #2abb9c;
+      }
+      
+      .button-tertiary {
+        background-color: #e74c3c;
+      }
+      
+      .button i {
+        margin-right: 5px;
+      }
+      
+      .python-icon,
+      .vscode-icon,
+      .source-code-icon {
+        color: #fff; /* Set icon color to white */
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .button-primary {
+        background-color: #3498db;
+      }
+      
+      .button-secondary {
+        background-color: #2ecc71;
+      }
+      
+      .button-tertiary {
+        background-color: #e74c3c;
+      }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Roshan</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                   
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Explorations</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+           <!-- ... (previous code) ... -->
+
+          <div class="nav-button">
+              <a href="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/Roshansai%20Ketham.pdf?v=1705714074211" download class="btn">Download CV <i class="uil uil-file-alt"></i></a>
+          </div>
+
+<!-- ... (remaining code) ... -->
+
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+ 
+            
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Roshansaiketam</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced frontend developer with a passion for creating visually stunning
+                            and user-friendly websites.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                            <a href="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/Roshansai%20Ketham.pdf?v=1705714074211" download class="btn">Download CV <i class="uil uil-file-alt"></i></a>
+                    </div>
+
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/roshansai_ketam/"  class="icon"><i class="uil uil-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/roshansai-ketham-0603b7230/" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://twitter.com/RoshansaiKetham"  class="icon"><i class="uil uil-twitter"></i></a>
+                        <a href="https://github.com/Roshansaiketham"  class="icon"><i class="uil uil-github-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/profile.png?v=1700796957307" alt="avatar">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me & My Skills</h1>
+                </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                          
+                          <style>
+                            /* General styles */
+                            body {
+                                font-family: 'Arial', sans-serif;
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                    
+                            /* Video section styles */
+                            .video-section {
+                                margin-top: 40px;
+                                text-align: center;
+                            }
+                    
+                            h2 {
+                                color: #2c3e50; /* Dark gray color */
+                            }
+                    
+                            /* Video player styles */
+                            .video-player-container {
+                                position: relative;
+                                max-width: 800px;
+                                margin: 0 auto;
+                            }
+                    
+                            .video-player {
+                                width: 100%;
+                            }
+                    
+                            .thumbnail img {
+                              width: 50%;
+                              border-radius: 7px;
+                              border: 2px solid #24467deb; /* Purple border color */
+                              box-shadow: 0 0 20px rgba(70, 101, 150, 0.7); /* Purple glow effect */
+                          }
+                          
+                          
+                    
+                            /* Button container styles */
+                            .play-button-container {
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                    
+                            /* Button styles */
+                            .play-button-action {
+                              padding: 8px; /* Adjusted padding to decrease width */
+                              font-size: 16px;
+                              cursor: pointer;
+                              background-color: #466596c2; /* Purple color */
+                              color: white;
+                              border: 2px solid #24467deb; /* Purple border color */
+                              border: 2px solid ; /* Border color matching the background color */
+                              border-radius: 5px;
+                              transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+                              box-shadow: 0 0 20px rgba(12, 21, 35, 0.7);
+                          }
+                          
+                          .play-button-action.glow {
+                              box-shadow: 0 0 10px 5px rgba(70, 101, 150, 0.8); /* Adjust the color and spread as needed */
+                          }
+
+
+
+                        
+                    
+                            .play-button-action:hover {
+                                background-color: #466596c2; /* Darker purple on hover */
+                                box-shadow: 0 0 10p #466596c2(142, 68, 173, 0.8); /* Glowing effect on hover */
+                            }
+                        </style>
+                   
+                    <script>
+                      const button = document.querySelector('.play-button-action');
+
+button.addEventListener('mouseenter', () => {
+    button.classList.add('glow');
+});
+
+button.addEventListener('mouseleave', () => {
+    button.classList.remove('glow');
+});
+
+                    </script>
+                    <!-- Your existing HTML structure here -->
+                    <h3>Watchfolio</h3>
+                    <div class="video-section">
+                        <h2>Video Showcase</h2>
+                        <br>
+                        
+                        <div class="video-player-container">
+                            <div id="thumbnailGrid" class="thumbnail">
+                                <!-- Single Thumbnail -->
+                                <img src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/image.jpeg?v=1706887342061" alt="Video Preview"><br><br>
+                                <div class="play-button-action" onclick="playVideo('video1.mp4')">Play Video</div>
+                            </div>
+                            <div id="videoPlayer" class="video-player"></div>
+                        </div>
+                    </div><br>
+                    
+                    <script>
+                        function playVideo(videoUrl) {
+                            const videoPath = `path/to/videos/${videoUrl}`;
+                            document.getElementById("thumbnailGrid").style.display = "none";
+                            document.getElementById("videoPlayer").innerHTML = `<video controls class="video-player"><source src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/Roshan.mp4?v=1706887367458" type="video/mp4"></video>`;
+                        }
+                    </script>
+                            <p>Hi there! Indulge in this captivating preview showcasing the essence of my persona and journey –
+                               a riveting self-watch video that promises inspiration and authenticity.</p><br>
+                            <h3>My introduction</h3><br>
+                            <p>Passionate technophile pursuing a Bachelor of Technology, specializing in cybersecurity, 
+                               deep learning, and prompt engineering. A creative problem solver with a focus on optimizing 
+                               efficiency and a commitment to making meaningful contributions to the dynamic world of technology
+                               through innovative web solutions. Driven by insatiable curiosity, I strive to navigate and contribute
+                               to the ever-evolving technological landscape.
+
+                          </p><br>
+                            
+                           <h3>About My Education</h3>
+                            <p>
+                              
+                                <div class="container">
+                                    <div class="skill" id="html">
+                                        <p>
+                                        I pursing my Bachelor of Technology (B.Tech) degree at
+                                        Aditya Institute of Technology and Management in Tekkali,
+                                        India, from 2021 to 2025
+                                          </p><br>
+                                      <div class="bar"></div><br>
+                                      <span class="label">B.TECH @7.98 CGPA</span>
+                                    </div>
+                                    
+                                    <div class="skill" id="css">
+                                        <p>
+                                            I completed my intermediate education at 
+                                            Srichaitanya Junior College in 2021
+                                          </p><br>
+                                      <div class="bar"></div><br>
+                                     
+                                      <span class="label">Intermediate @62 Percentage</span>
+                                    </div>
+                                    <div class="skill" id="js">
+                                        <p>
+                                            I completed my Tenth education at Srichaitanya
+                                            Techno School in 2021
+                                          </p><br>
+                                      <div class="bar"></div><br>
+                                      
+                                      <span class="label">Tenth @ 92 Percentage</span>
+                                    </div>
+                                  </div>
+                            </p>
+                           </div>
+                      
+                    </div>
+                   <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span style="background-color: darkorange;"><i class="fab fa-html5"></i> HTML</span>
+                            <span style="background-color: blue;"><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span style="background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968292.png');"><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span style="background-image: url('path-to-php-image.jpg');"><i class="fab fa-php"></i> PHP</span>
+                            <span style="background-color: red;"><i class="fab fa-java"></i> JAVA</span>
+                            <span style="background-color: green;"><i class="fab fa-python"></i> Python</span>
+                            <span style="background-color: black;"><i class="fas fa-cogs"></i> C</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database & OS</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span style="background-color: navy;"><i class="fas fa-database"></i> MySQL</span>
+                            <span style="background-color: rgb(48, 69, 105);"><i class="fas fa-database"></i> PostgreSQL</span>
+                            <span style="background-color: lightgreen;"><i class="fas fa-database"></i> MongoDB</span>
+                            <span style="background-color: rgb(86, 161, 192);"><i class="fab fa-linux"></i> Linux</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+
+            <section>
+                            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Explorations</h1>
+
+                </div>
+                
+                <div class="project-container">
+                    <div class="project-box" >
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                        <h3>Certifications</h3>
+                        <label>Completeions Courses</label>
+                    </div>
+                    <div class="project-box" >
+      <i class="uil uil-briefcase-alt"></i>
+      <h3>Completed</h3>
+      <label>3 Finished Projects</label>
+    </div>
+
+    <script>
+      function redirectToURL(url) {
+        window.location.href = url;
+      }
+    </script>
+    
+                    
+                </div>
+            </section>
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Certificate overview</h1>
+                </div>
+                <style>
+                    #completion-courses {
+                      * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                      }
+                
+                      body {
+                        --color: rgba(30, 30, 30);
+                        --bgColor: rgba(245, 245, 245);
+                        min-height: 100vh;
+                        display: grid;
+                        align-content: center;
+                        gap: 2rem;
+                        padding: 2rem;
+                        font-family: "Poppins", sans-serif;
+                        color: var(--color);
+                        background: var(--bgColor);
+                      }
+                
+                      h1 {
+                        text-align: center;
+                      }
+                
+                      ul {
+                        --col-gap: 2rem;
+                        --row-gap: 2rem;
+                        --line-w: 0.25rem;
+                        display: grid;
+                        grid-template-columns: var(--line-w) 1fr;
+                        grid-auto-columns: max-content;
+                        column-gap: var(--col-gap);
+                        list-style: none;
+                        width: min(60rem, 90%);
+                        margin-inline: auto;
+                      }
+                      ul::before {
+                        content: "";
+                        grid-column: 1;
+                        grid-row: 1 / span 20;
+                        background: rgb(225, 225, 225);
+                        border-radius: calc(var(--line-w) / 2);
+                      }
+                    
+                      ul li:not(:last-child) {
+                        margin-bottom: var(--row-gap);
+                      }
+                    
+                      ul li {
+                        grid-column: 2;
+                        --inlineP: 1.5rem;
+                        margin-inline: var(--inlineP);
+                        grid-row: span 2;
+                        display: grid;
+                        grid-template-rows: min-content min-content min-content;
+                      }
+                    
+                      ul li .date {
+                        --dateH: 3rem;
+                        height: var(--dateH);
+                        margin-inline: calc(var(--inlineP) * -1);
+                        text-align: center;
+                        background-color: var(--accent-color);
+                        color: white;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        display: grid;
+                        place-content: center;
+                        position: relative;
+                        border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
+                      }
+                    
+                      ul li .date::before {
+                        content: "";
+                        width: var(--inlineP);
+                        aspect-ratio: 1;
+                        background: var(--accent-color);
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
+                        position: absolute;
+                        top: 100%;
+                        clip-path: polygon(0 0, 100% 0, 0 100%);
+                        right: 0;
+                      }
+                    
+                      ul li .date::after {
+                        content: "";
+                        position: absolute;
+                        width: 2rem;
+                        aspect-ratio: 1;
+                        background: var(--bgColor);
+                        border: 0.3rem solid var(--accent-color);
+                        border-radius: 50%;
+                        top: 50%;
+                        transform: translate(50%, -50%);
+                        right: calc(100% + var(--col-gap) + var(--line-w) / 2);
+                      }
+                    
+                      ul li .title,
+                      ul li .descr {
+                        background: var(--bgColor);
+                        position: relative;
+                        padding-inline: 1.5rem;
+                      }
+                    
+                      ul li .title {
+                        overflow: hidden;
+                        padding-block-start: 1.5rem;
+                        padding-block-end: 1rem;
+                        font-weight: 500;
+                      }
+                    
+                      ul li .descr {
+                        padding-block-end: 1.5rem;
+                        font-weight: 300;
+                      }
+                    
+                      ul li .title::before,
+                      ul li .descr::before {
+                        content: "";
+                        position: absolute;
+                        width: 90%;
+                        height: 0.5rem;
+                        background: rgba(0, 0, 0, 0.5);
+                        left: 50%;
+                        border-radius: 50%;
+                        filter: blur(4px);
+                        transform: translate(-50%, 50%);
+                      }
+                    
+                      ul li .title::before {
+                        bottom: calc(100% + 0.125rem);
+                      }
+                    
+                      ul li .descr::before {
+                        z-index: -1;
+                        bottom: 0.25rem;
+                      }
+                    
+                      @media (min-width: 40rem) {
+                        ul {
+                          grid-template-columns: 1fr var(--line-w) 1fr;
+                        }
+                        ul::before {
+                          grid-column: 2;
+                        }
+                        ul li:nth-child(odd) {
+                          grid-column: 1;
+                        }
+                        ul li:nth-child(even) {
+                          grid-column: 3;
+                        }
+                    
+                        ul li:nth-child(2) {
+                          grid-row: 2/4;
+                        }
+                    
+                        ul li:nth-child(odd) .date::before {
+                          clip-path: polygon(0 0, 100% 0, 100% 100%);
+                          left: 0;
+                        }
+                    
+                        ul li:nth-child(odd) .date::after {
+                          transform: translate(-50%, -50%);
+                          left: calc(100% + var(--col-gap) + var(--line-w) / 2);
+                        }
+                        ul li:nth-child(odd) .date {
+                          border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+                        }
+                      }
+                
+                      /* Rest of your CSS styles... */
+                
+                      .credits {
+                        margin-top: 1rem;
+                        text-align: right;
+                      }
+                
+                      .credits a {
+                        color: var(--color);
+                      }
+                    }
+                  </style>
+                  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+                <div id="completion-courses">
+                    <title>Completion Courses</title><br>
+                    <br>
+                    
+                    <head></head>
+                    <body>
+                      <h1>Completion Courses</h1><br>
+                      <br>
+                      <ul>
+                        <li style="--accent-color: #41516c">
+                          <div class="date">November 19,2023</div>
+                          <div class="title">PYTHON LEARNING CHALLENGE</div>
+                          <div class="descr">PYTHON ,@ MICROSOFT LEARN STUDENT AMBASSADOR</div>
+                        </li>
+                        <li style="--accent-color: #fbca3e">
+                          <div class="date">July 4,2023</div>
+                          <div class="title">Cyber Security</div>
+                          <div class="descr">OFFICAL ISC2 CERTIFIED IN CYBER SECURITY(CC) SELF-PLACED TRAINING,@ ISC2</div>
+                        </li>
+                        <li style="--accent-color: #e24a68">
+                          <div class="date">June 19,2023</div>
+                          <div class="title">AWS</div>
+                          <div class="descr">AWS EDUCATE GETTING STARTED WITH SERVERLESS,@ AWS EDUCATE</div>
+                        </li>
+                        <li style="--accent-color: #1b5f8c">
+                          <div class="date">June 15,2023</div>
+                          <div class="title">ORACLE</div>
+                          <div class="descr">ORACLE CLOUD DATA MANGEMENT,@ ORACLE UNIVERSITY</div>
+                        </li>
+                        <li style="--accent-color: #4cadad">
+                          <div class="date">Mar 12,2023</div>
+                          <div class="title">SQL</div>
+                          <div class="descr">SQL for Data Analysis,@ LINKEDIN LEARNING</div>
+                        </li>
+                      </ul>
+                      <div class="credits">
+                        <a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm"></a>
+                      </div>
+                    </body>
+                  </div>
+                <div class="top-header">
+                    <h1>Projects overview</h1>
+
+                </div>
+                <link
+                rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+              />
+              <style>
+                body {
+                  margin: 0;
+                  padding: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 100vh;
+                  background-color: #f2f2f2;
+                }
+          
+                .center-container {
+                  text-align: center;
+                  max-width: 600px; /* Adjust as needed */
+                  margin: 0 auto;
+                }
+          
+                .project-container1 {
+                  margin-bottom: 30px;
+                  background-color: #fff;
+                  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                  padding: 20px;
+                }
+          
+                .project-box1 i img {
+                  max-width: 100%;
+                  height: auto;
+                  border-radius: 5px;
+                }
+          
+                .p2 {
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                }
+          
+                .buttons-container1 {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                }
+          
+                .button {
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  font-size: 14px;
+                  cursor: pointer;
+                }
+          
+                .button-secondary {
+                  color: #fff;
+                  background-color: #5cb85c;
+                }
+          
+                .button-tertiary {
+                  color: #5cb85c;
+                  background-color: #fff;
+                  border: 1px solid #5cb85c;
+                }
+          
+                .fab,
+                .fas {
+                  margin-right: 5px;
+                }
+          
+                .source-code-box {
+                  margin-top: 20px;
+                  padding: 20px;
+                  background-color: #f2f2f2;
+                  border-radius: 5px;
+                  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  color: green; /* Set the text color to green */
+                  border: 2px solid green; /* Set the border color to green */
+                }
+          
+                .source-code-box a {
+                  margin-right: 5px;
+                  color: green; /* Set the link color to green */
+                }
+              </style>
+              <!-- Add any additional meta tags, stylesheets, or scripts here -->
+              <title>Your Page Title</title>
+            </head>
+            <body>
+              <div class="center-container">
+                <div class="project-container1">
+                  <a href="#" class="button button-secondary">30-SEPTEMBER-2023</a
+                  ><br /><br />
+                  <div class="project-box1">
+                    <i>
+                      <img src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/p.png?v=1704990636993" alt="Certificate Image" />
+                    </i>
+                  </div>
+                  <p class="p2">
+                    Implementing Physical Security Policy on USB Ports in Organization for
+                    Physical Security. Here I use the Technologies to develop the project.
+                  </p>
+                  <div class="project-box1">
+                    <div class="buttons-container1">
+                      <a class="button button-secondary" style="background-color: green"
+                        ><i class="fab fa-python"></i> Python</a
+                      >
+                      <a href="#" class="button button-secondary"
+                        ><i class="fas fa-code vscode-icon"></i>VS Code</a
+                      >
+                    </div>
+                  </div>
+                  <div class="source-code-box">
+                    <!-- Insert the source code content here or any additional information -->
+                    <a
+                      href="https://github.com/Roshansaiketham/usb-physical-handaling-with-protection/blob/main/usb.py"
+                      class="button button-secondary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fas fa-file-code source-code-icon"></i> View Source Code
+                    </a>
+                    <span style="color: green"
+                      >This is the source code for the USB project.</span
+                    >
+                  </div>
+                </div>
+          
+                <div class="project-container1">
+                  <a href="#" class="button button-secondary">10-NOVEMBER-2023</a
+                  ><br /><br />
+                  <div class="project-box1">
+                    <i>
+                      <img src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/2.png?v=1704990646045" alt="Certificate Image" />
+                    </i>
+                  </div>
+                  <p class="p2">
+                    Fortifying Numerical Tracking and Securing Operations on Smart
+                    Devices. Here I use the Technologies to develop the project.
+                  </p>
+                  <div class="project-box1">
+                    <div class="buttons-container1">
+                      <a class="button button-secondary" style="background-color: green"
+                        ><i class="fab fa-python"></i> Python</a
+                      >
+                      <a href="#" class="button button-secondary"
+                        ><i class="fas fa-code vscode-icon"></i>VS Code</a
+                      >
+                    </div>
+                  </div>
+                  <div class="source-code-box">
+                    <!-- Insert the source code content here or any additional information -->
+                    <a
+                      href="https://github.com/Roshansaiketham/Number-Finding-Repo/blob/main/ac%20number.py"
+                      class="button button-secondary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fas fa-file-code source-code-icon"></i> View Source Code
+                    </a>
+                    <span style="color: green"
+                      >This is the source code for the Number-Finding project.</span
+                    >
+                  </div>
+                </div>
+          
+                <div class="project-container1">
+                  <a href="#" class="button button-secondary">05-January-2024</a><br />
+                  <br />
+                  <div class="project-box1">
+                    <i>
+                      <img src="https://cdn.glitch.global/43d77c74-732f-4c5b-869c-2caea7b6be27/3.png?v=1704990658467" alt="Certificate Image" />
+                    </i>
+                  </div>
+                  <p class="p2">
+                    Crafting a dynamic portfolio website showcasing proficiency in HTML,
+                    CSS, and JavaScript, delivering a seamless user experience and
+                    highlighting a diverse range of technical projects. Here I use the
+                    Technologies to develop the project.
+                  </p>
+                  <div class="project-box1">
+                    <div class="buttons-container1">
+                      <a
+                        class="button button-secondary"
+                        style="background-color: rgb(207, 166, 89)"
+                        ><i class="fab fa-html5"></i> HTML</a
+                      >
+                      <a
+                        class="button button-secondary"
+                        style="background-color: rgb(89, 109, 207)"
+                        ><i class="fab fa-css3-alt"></i> CSS</a
+                      >
+                      <a href="#" class="button button-secondary"
+                        ><i class="fas fa-code vscode-icon"></i>VS Code</a
+                      >
+                    </div>
+                  </div>
+                  <div class="source-code-box">
+                    <!-- Insert the source code content here or any additional information -->
+                    <a
+                      href="https://github.com/Roshansaiketham/Roshan-myweb/blob/main/index.html"
+                      class="button button-secondary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fas fa-file-code source-code-icon"></i> View Source Code
+                    </a>
+                    <span style="color: green"
+                      >This is the source code for the Portfolio Website project.</span
+                    >
+                  </div>
+                </div>
+              </div>
+                
+                
+<br>
+          </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: roshansaiketham67@gmail.com
+                              
+            
+                              
+                          
+                          </p>
+                            <p><i class="uil uil-phone"></i> +91 9494743688</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <form action="https://formsubmit.co/roshansaiketham67@gmail.com" method="POST">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_next" value="https://roshansaiketham.github.io/Roshan-Portfolio//success.html">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" name="name" placeholder="Name" required>
+                                    <input type="email" class="input-field" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Roshansaiketam.</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                    <a href="https://www.instagram.com/roshansai_ketam/"  class="icon"><i class="uil uil-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/roshansai-ketham-0603b7230/" class="icon"><i class="uil uil-linkedin-alt"></i></a>
+                    <a href="https://twitter.com/RoshansaiKetham"  class="icon"><i class="uil uil-twitter"></i></a>
+                    <a href="https://github.com/Roshansaiketham"  class="icon"><i class="uil uil-github-alt"></i></a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Roshansaiketam</a> - All rights reserved
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>About Roshan Portfolio</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Greetings!👋 Hai There Here I Help u to Find Roshan Portfolio details with the way to about the person ,about education,works,contact.</p>
+        </li>
+       
+        
+      </ul>
+      <div class="chat-input">
+        <textarea
+          placeholder="Enter a message..."
+          spellcheck="false"
+          required
+        ></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+    </div>
+    <style>
+      /* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #e3f2fd;
+}
+.chatbot-toggler {
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #724ae8;
+  transition: all 0.2s ease;
+}
+body.show-chatbot .chatbot-toggler {
+  transform: rotate(90deg);
+}
+.chatbot-toggler span {
+  color: #fff;
+  position: absolute;
+}
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child {
+  opacity: 0;
+}
+body.show-chatbot .chatbot-toggler span:last-child {
+  opacity: 1;
+}
+.chatbot {
+  position: fixed;
+  right: 35px;
+  bottom: 90px;
+  width: 420px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+    0 32px 64px -48px rgba(0, 0, 0, 0.5);
+  transition: all 0.1s ease;
+}
+body.show-chatbot .chatbot {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+.chatbot header {
+  padding: 16px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: #724ae8;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.chatbot header span {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  display: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+header h2 {
+  font-size: 1.4rem;
+}
+.chatbot .chatbox {
+  overflow-y: auto;
+  height: 410px;
+  padding: 30px 20px 80px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+  width: 6px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 25px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+.chatbox .chat {
+  display: flex;
+  list-style: none;
+}
+.chatbox .outgoing {
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+.chatbox .incoming span {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+  line-height: 32px;
+  align-self: flex-end;
+  background: #724ae8;
+  border-radius: 4px;
+  margin: 0 10px 7px 0;
+}
+.chatbox .chat p {
+  white-space: pre-wrap;
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 10px;
+  max-width: 75%;
+  color: #fff;
+  font-size: 0.95rem;
+  background: #724ae8;
+}
+.chatbox .incoming p {
+  border-radius: 10px 10px 10px 0;
+}
+.chatbox .chat p.error {
+  color: #721c24;
+  background: #f8d7da;
+}
+.chatbox .incoming p {
+  color: #000;
+  background: #f2f2f2;
+}
+.chatbot .chat-input {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 3px 20px;
+  border-top: 1px solid #ddd;
+}
+.chat-input textarea {
+  height: 55px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  max-height: 180px;
+  padding: 15px 15px 15px 0;
+  font-size: 0.95rem;
+}
+.chat-input span {
+  align-self: flex-end;
+  color: #724ae8;
+  cursor: pointer;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  font-size: 1.35rem;
+}
+.chat-input textarea:valid ~ span {
+  visibility: visible;
+}
+
+@media (max-width: 490px) {
+  .chatbot-toggler {
+    right: 20px;
+    bottom: 20px;
+  }
+  .chatbot {
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+  }
+  .chatbot .chatbox {
+    height: 90%;
+    padding: 25px 15px 100px;
+  }
+  .chatbot .chat-input {
+    padding: 5px 15px;
+  }
+  .chatbot header span {
+    display: block;
+  }
+}
+
+    </style>
+    <script>
+      const chatbotToggler = document.querySelector(".chatbot-toggler");
+const closeBtn = document.querySelector(".close-btn");
+const chatbox = document.querySelector(".chatbox");
+const chatInput = document.querySelector(".chat-input textarea");
+const sendChatBtn = document.querySelector(".chat-input span");
+
+let userMessage = null; // Variable to store user's message
+const API_KEY = "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"; // Paste your API key here
+const inputInitHeight = chatInput.scrollHeight;
+
+const createChatLi = (message, className) => {
+  // Create a chat <li> element with passed message and className
+  const chatLi = document.createElement("li");
+  chatLi.classList.add("chat", `${className}`);
+  let chatContent =
+    className === "outgoing"
+      ? `<p></p>`
+      : `<span class="material-symbols-outlined">smart_toy</span><p></p>`;
+  chatLi.innerHTML = chatContent;
+  chatLi.querySelector("p").textContent = message;
+  return chatLi; // return chat <li> element
+};
+
+const generateResponse = (chatElement, responseMessage) => {
+  const messageElement = chatElement.querySelector("p");
+  messageElement.textContent = responseMessage;
+  chatbox.scrollTo(0, chatbox.scrollHeight);
+};
+
+const handleChat = () => {
+  userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
+  if (!userMessage) return;
+
+  // Clear the input textarea and set its height to default
+  chatInput.value = "";
+  chatInput.style.height = `${inputInitHeight}px`;
+
+  // Append the user's message to the chatbox
+  chatbox.appendChild(createChatLi(userMessage, "outgoing"));
+  chatbox.scrollTo(0, chatbox.scrollHeight);
+
+  setTimeout(() => {
+    // Display "Thinking..." message while waiting for the response
+    const incomingChatLi = createChatLi("Thinking...", "incoming");
+    chatbox.appendChild(incomingChatLi);
+    chatbox.scrollTo(0, chatbox.scrollHeight);
+
+    // Check user's input and respond accordingly
+    if (userMessage.toLowerCase() === "about the person") {
+      generateResponse(
+        incomingChatLi,
+        "Roshansaiketham, a skilled and passionate professional from Srikakulam, adept in web design, logo design, ethical hacking, and data analysis, dedicated to crafting tools and pushing the boundaries of development."
+      );
+    } else if (userMessage.toLowerCase() === "about education") {
+      generateResponse(
+        incomingChatLi,
+        "Roshansaiketham, an aspiring individual from Srikakulam, completed 10th and intermediate education at Srichaitanya Educational and currently pursuing a B.Tech in Information Technology, with a passion for web design, logo design, ethical hacking, and data analysis."
+      );
+    } else if (userMessage.toLowerCase() === "works") {
+      generateResponse(
+        incomingChatLi,
+        "Roshansaiketham, with a robust background in database analysis, Python programming, cloud management, ethical hacking, and AWS, holds certifications that continually fuel a passion for innovation. Specializing in cybersecurity, I've successfully executed projects."
+      );
+    } else if (userMessage.toLowerCase() === "contact") {
+      generateResponse(
+        incomingChatLi,
+        "You can contact me at roshansaiketham67@gmail.com"
+      );
+    } else {
+      generateResponse(
+        incomingChatLi,
+        "I'm not sure how to respond to that. Ask me about the person, education, works, or contact."
+      );
+    }
+  }, 600);
+};
+
+chatInput.addEventListener("input", () => {
+  // Adjust the height of the input textarea based on its content
+  chatInput.style.height = `${inputInitHeight}px`;
+  chatInput.style.height = `${chatInput.scrollHeight}px`;
+});
+
+chatInput.addEventListener("keydown", (e) => {
+  // If Enter key is pressed without Shift key and the window
+  // width is greater than 800px, handle the chat
+  if (e.key === "Enter" && !e.shiftKey && window.innerWidth > 800) {
+    e.preventDefault();
+    handleChat();
+  }
+});
+
+sendChatBtn.addEventListener("click", handleChat);
+closeBtn.addEventListener("click", () =>
+  document.body.classList.remove("show-chatbot")
+);
+chatbotToggler.addEventListener("click", () =>
+  document.body.classList.toggle("show-chatbot")
+);
+
+    </script>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="./script.js"></script>
+    <a href="C:\Users\rosha\OneDrive\Pictures\Desktop\Sample Tests\test\chatbot\cb.html"></a>
+</body>
+
+</html>
