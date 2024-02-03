@@ -1427,38 +1427,155 @@ body {
   border: 0;
 }
     </style>
-</body>
+   
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<div class="faculty-container">
+  <figure class="snip1390">
+    <img src="https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5CSE00T06.png" alt="profile-sample3" class="profile" />
+    <figcaption>
+      <h2>Dr. Yegireddi Ramesh</h2>
+      <h4>Head Department of IT Department at AITAM College</h4>
+      <blockquote>Awesome Job Roshan</blockquote>
+    </figcaption>
+  </figure>
+
+  <figure class="snip1390 hover">
+    <img src="https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5INT00T31.png" alt="profile-sample5" class="profile" />
+    <figcaption>
+      <h2>Dr. Naresh Tangudu</h2>
+      <h4>Assistant Professor of IT Department at AITAM College</h4>
+      <blockquote>Nice Job Roshan </blockquote>
+    </figcaption>
+  </figure>
+
+  <figure class="snip1390">
+    <img src="https://img.freepik.com/premium-vector/professor-character-profession-avatar-mascot_186868-304.jpg" alt="profile-sample6" class="profile" />
+    <figcaption>
+      <h2>Sri. Dasari Reventh Raj</h2>
+      <h4>Assistant Professor of IT Department at AITAM College</h4>
+      <blockquote>Great Job Roshan</blockquote>
+    </figcaption>
+  </figure>
+</div>
 <style>
-  .container2 {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    width: 200px; /* You can adjust the width as per your preference */
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.faculty-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+figure.snip1390 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1390 *,
+figure.snip1390 *:before,
+figure.snip1390 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1390 figcaption {
+  width: 100%;
+}
+figure.snip1390 h2,
+figure.snip1390 h4,
+figure.snip1390 blockquote {
+  margin: 0;
+}
+figure.snip1390 h2,
+figure.snip1390 h4 {
+  font-weight: 300;
+}
+figure.snip1390 h2 {
+  color: #ffffff;
+}
+figure.snip1390 h4 {
+  color: #a6a6a6;
+}
+figure.snip1390 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.snip1390 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.snip1390 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+@media (max-width: 768px) {
+  .faculty-container {
+    justify-content: center;
   }
+}
 
-  img {
-    border-radius: 50%; /* Optional: Add border-radius for rounded image */
-  }
 </style>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<div class="container2">
-  <img src="https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5CSE00T06.png" alt="Avatar" style="width:90px">
-  <p><span>Dr. Yegireddi Ramesh</span> Head Department of IT Department at AITAM College</p>
-  <p>Awesome Job Roshan</p>
-</div>
-<div class="container2">
-  <img src="https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5INT00T31.png" alt="Avatar" style="width:90px">
-  <p><span>Dr. Naresh Tangudu</span>
-    Assistant Professor of IT Department at AITAM College</p>
-  <p>Nice Job Roshan</p>
-</div>
+  <script>
+    $(document).ready(function(){
+      // Initialize the slick carousel
+      $('.faculty-container').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+  
+      // Handle click event on faculty photos
+      $('.faculty-container figure').click(function() {
+        // Remove the class from all figures
+        $('.faculty-container figure').removeClass('figure-clicked');
+  
+        // Add the class to the clicked figure
+        $(this).addClass('figure-clicked');
+  
+        // Remove the class after the transition is complete
+        setTimeout(function() {
+          $('.faculty-container figure').removeClass('figure-clicked');
+        }, 300); // Adjust the duration to match the CSS transition duration
+      });
+    });
+  </script>
+  
 
-<div class="container2">
-  <img src="https://img.freepik.com/premium-vector/professor-character-profession-avatar-mascot_186868-304.jpg" alt="Avatar" style="width:90px">
-  <p><span>Sri. Dasari Reventh Raj</span> Assistant Professor of IT Department at AITAM College</p>
-  <p>Good Job Roshan</p>
-</div>
+</body>
 
-</div>
 </html>
