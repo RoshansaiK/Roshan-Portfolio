@@ -1021,7 +1021,7 @@ button.addEventListener('mouseleave', () => {
             <div class="bottom-footer">
                 <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Roshansaiketam</a> - All rights reserved
                 </p>
-            </div>
+            </div><br>
         </footer>
 
     </div>
@@ -1458,6 +1458,14 @@ body {
       <blockquote>Great Job Roshan</blockquote>
     </figcaption>
   </figure>
+  <figure class="snip1390">
+    <img src="https://raw.githubusercontent.com/aitamweb/Faculty/main/2023/it/A5INT00T24.png" alt="profile-sample3" class="profile" />
+    <figcaption>
+      <h2>Sri. Alok Kumar Jena</h2>
+      <h4>Assistant Professor of IT Department at AITAM college</h4>
+      <blockquote>excellent Job Roshan</blockquote>
+    </figcaption>
+  </figure>
 </div>
 <style>
   @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
@@ -1538,6 +1546,9 @@ figure.snip1390 .profile {
   margin-bottom: 10px;
   border: solid 5px #A6A57A;
 }
+.figure-clicked {
+  transform: translateX(20px); /* Adjust the value based on your preference */
+}
 @media (max-width: 768px) {
   .faculty-container {
     justify-content: center;
@@ -1547,33 +1558,7 @@ figure.snip1390 .profile {
 </style>
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-      // Initialize the slick carousel
-      $('.faculty-container').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-      });
-  
-      // Handle click event on faculty photos
-      $('.faculty-container figure').click(function() {
-        // Remove the class from all figures
-        $('.faculty-container figure').removeClass('figure-clicked');
-  
-        // Add the class to the clicked figure
-        $(this).addClass('figure-clicked');
-  
-        // Remove the class after the transition is complete
-        setTimeout(function() {
-          $('.faculty-container figure').removeClass('figure-clicked');
-        }, 300); // Adjust the duration to match the CSS transition duration
-      });
-    });
-  </script>
+<script src="js/Text.js"></script>
   
 
 </body>
